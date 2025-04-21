@@ -1,0 +1,43 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .hero {
+    background-image: url('/homepage.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .section-title {
+    font-weight: bold;
+    color: #001F3F;
+  }
+  .plans .card {
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    transition: 0.3s;
+  }
+  .plans .card:hover {
+    transform: scale(1.05);
+  }
+  .member-image {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+  }
+  .member-image img {
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+  .member-image:hover img {
+    transform: scale(1.1);
+  }
